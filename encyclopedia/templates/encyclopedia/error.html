@@ -1,0 +1,12 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    ERROR!!!
+{% endblock %}
+
+{% block body %}
+{% if num %}
+{% else %}
+   <p>THE REQUESTED PAGE WAS NOT FOUND!</p>
+{%endif%}
+{% endblock %}
